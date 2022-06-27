@@ -1,0 +1,35 @@
+{
+	"id": "myId",
+	"systemsToMonitor" : [
+		{
+			"envType" : "prod",
+			"systemsDetails" : [
+				{
+					"serviceName": "service1",
+					"healthEndpoint" : "sericeURL"
+					
+				}
+			]
+		},
+		{
+			"envType" : "dev",
+			"systemsDetails" : [
+				{
+					"serviceName": "service2",
+					"healthEndpoint" : "service2URL"
+					
+				}
+			]
+		},
+		{
+			"envType" : "qa",
+			"systemsDetails" : [
+				{
+					"serviceName": "service3",
+					"healthEndpoint" : "service3URL"
+					
+				}
+			]
+		}
+	]
+}
